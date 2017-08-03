@@ -1,4 +1,4 @@
-# NodeStarter
+# Node with Swagger
 Sample application to showcase web api development using Node.js, Swagger and Express
 
 ![Alt Text](https://github.com/abhinavswami/NodeWithSwagger/blob/master/api/mocks/Swagger.PNG)
