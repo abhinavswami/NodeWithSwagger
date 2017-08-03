@@ -6,7 +6,7 @@ module.exports = {getAll, save, getOne, update, delMovie};
 
 //GET /movie operationId
 function getAll(req,res,next) {
-  console.log(req.swagger);
+  // console.log(req.swagger);
   res.json({movies: db.find()});
 }
 
@@ -17,7 +17,6 @@ function save(req,res,next) {
 
 //GET /movie/{id} operationId
 function getOne(req,res,next){
-  console.log(req.swagger);
   var id = req.swagger.params.id.value;  //req.swagger contains the path parameters
   var movie = db.find(id);
   if(movie){
