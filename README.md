@@ -14,8 +14,8 @@ Sample application to showcase web api development using Node.js, Swagger and Ex
 
 ## Run from your terminal:
 
-  swagger project start
-  swagger project edit
+    swagger project start
+    swagger project edit
 
 ## Routes supported:
 	GET, POST : http://localhost:10010/movie/
