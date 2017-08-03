@@ -13,7 +13,8 @@ Sample application to showcase web api development using Node.js, Swagger and Ex
     npm install
 
 ## Run from your terminal:
-	swagger project start
+
+  swagger project start
   swagger project edit
 
 ## Routes supported:
