@@ -1,6 +1,7 @@
 # NodeStarter
-Sample application to showcase web api development using Swagger and Node.js
+Sample application to showcase web api development using Node.js, Swagger and Express
 
+![Alt Text](https://github.com/abhinavswami/NodeWithSwagger/blob/master/api/mocks/Swagger.PNG)
 ## Requirements
 
 * [NodeJS & NPM](http://nodejs.org/download)
@@ -16,6 +17,6 @@ Sample application to showcase web api development using Swagger and Node.js
   swagger project edit
 
 ## Routes supported:
-	GET : http://localhost:8080/api/
-	GET, POST : http://localhost:8080/api/bears
-	GET, PUT, DELETE : http://localhost:8080/api/bears/:bear_id
+	GET, POST : http://localhost:10010/movie/
+	GET, PUT, DELETE : http://localhost:10010/movie/{id}
+	GET : http://localhost:10010/hello
