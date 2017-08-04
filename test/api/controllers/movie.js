@@ -3,9 +3,7 @@ request = require('supertest'),
 server = require('../../../app');
 
 describe('controllers', function(){
-
   describe('movie',function(){
-
     describe('GET /getAll', function(){
       it('should return empty array of movies', function(done){
         request(server)
